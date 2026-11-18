@@ -1,3 +1,4 @@
+```python
 # 🎨 drawing
 
 O **drawing** é um package Python simples e educativo que demonstra a estrutura moderna de um pacote usando `pyproject.toml` e a organização recomendada em `src/`.  
@@ -17,10 +18,17 @@ Inclui duas funcionalidades principais:
 ```python
 def red():
     print("vermelho")
-Módulo shapes
+```
+
+### Módulo `shapes`
+
+```python
 def oval():
     print("oval")
-📁 Estrutura do Projeto
+```
+
+## 📁 Estrutura do Projeto
+```
 drawing/
 │
 ├── src/
@@ -32,22 +40,34 @@ drawing/
 ├── README.md
 ├── main.py
 └── pyproject.toml
-🚀 Instalação
+```
+
+## 🚀 Instalação
 Instalação normal
 
+```bash
 pip install .
+```
+
 Instalação em modo de desenvolvimento (editable)
 
+```bash
 pip install -e .
-🛠️ Uso
+```
+
+## 🛠️ Uso
+```python
 from drawing.colors import red
 from drawing.shapes import oval
 
 red()   # Output: "vermelho"
 oval()  # Output: "oval"
+```
+
 📝 Requisitos
 
-O package não possui dependências externas. Se adicionares futuras dependências, inclui-as em requirements.txt ou em [project.dependencies] no pyproject.toml.
+O package não possui dependências externas.
+Se adicionares futuras dependências, inclui-as em requirements.txt ou em [project.dependencies] no pyproject.toml.
 
 🧑‍💻 Autor
 
@@ -61,3 +81,4 @@ Email: lukasmekkelholt@gmail.com
 
 Este projeto é disponibilizado sob a MIT License.
 
+```
