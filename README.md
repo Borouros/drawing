@@ -3,7 +3,7 @@
 O **drawing** é um package Python simples e educativo que demonstra a estrutura moderna de um pacote usando `pyproject.toml` e a organização recomendada em `src/`.  
 Inclui duas funcionalidades principais:
 
-- **colors** — funções relacionadas com cores  
+- **colours** — funções relacionadas com cores  
 - **shapes** — funções relacionadas com formas geométricas  
 
 É ideal para aprendizagem de packaging, organização modular e distribuição de código Python.
@@ -12,7 +12,7 @@ Inclui duas funcionalidades principais:
 
 ## 📚 Funcionalidades
 
-### Módulo `colors`
+### Módulo `colours`
 
 ```python
 def red():
@@ -33,7 +33,7 @@ drawing/
 ├── src/
 │   └── drawing/
 │       ├── __init__.py
-│       ├── colors.py
+│       ├── colours.py
 │       └── shapes.py
 ├── .gitignore
 ├── README.md
@@ -56,7 +56,7 @@ pip install -e .
 
 ## 🛠️ Uso
 ```python
-from drawing.colors import red
+from drawing.colours import red
 from drawing.shapes import oval
 
 red()   # Output: "vermelho"
