@@ -1,4 +1,3 @@
-```python
 # 🎨 drawing
 
 O **drawing** é um package Python simples e educativo que demonstra a estrutura moderna de um pacote usando `pyproject.toml` e a organização recomendada em `src/`.  
